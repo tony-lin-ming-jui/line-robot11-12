@@ -55,12 +55,12 @@ app.config['SECRET_KEY']=os.urandom(24)
 
 
 #ESLAB小幫手
-line_bot_api = LineBotApi('dzMHXFwU0FbiK7Ct+zLK80AgIt3wHV7trwSdsh+EjSKNW8vTir0fhCP6qRsqLWjl/UxiiqECfBK6AfHe0htI/Ksqz0DQLAGBoZZnsLG7lgXlHSvG7gd6yW2LT7K5qbXl4fQ4f3X+YCWlfXPv/vptTwdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('18305b046cb7b77b860f4381569cafd3')
+line_bot_api = LineBotApi('Channel access token')
+handler = WebhookHandler('Channel secret')
 #ESlab
-#line_bot_api = LineBotApi('sXsacRBrQxmQdOZ4GR3XwgArVbFqwM9eakRoR4ds5+cCXtqMr9g73C5gJIvw3e01IlZ3fZ0e/q/FmTmcl1Ng/8xv1UNxh2F9JetFn0uzi11VxiwtuNN4A6HlgAmTB/Y7M7nWWkQXbg0O+gIBHN/MagdB04t89/1O/w1cDnyilFU=')
-#handler = WebhookHandler('c36aebac19653ff398cb199668c25d52')
-#user_id='U7446a50ce4c8e4c5942a18454bac76a2'
+#line_bot_api = LineBotApi('Channel access token')
+#handler = WebhookHandler('Channel secret')
+
 webhook_url="https://3593230f.ngrok.io"
 scheduler = BlockingScheduler()
 
